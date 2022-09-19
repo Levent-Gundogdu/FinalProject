@@ -1,5 +1,4 @@
-﻿using Entities.Abstract;
-using Entities.Concrete;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess //Namespace, class ve interface'lere rahat ulasabilmek icin kulanilir.
 {
+    //Core katmani diger katmanlardan referans almaz.
     //Generic Constraint (Generic kisit)
     //class: referans tip olabilir demektir.
     //IEntity demek IEntity olabilir veya IEntity implemente eden bir nesne olabilir.
